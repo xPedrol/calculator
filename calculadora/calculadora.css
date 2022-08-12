@@ -1,13 +1,10 @@
-@font-face{
-	font-family: fonte;
-	src: url('fonte.ttf');
-}
+@import "https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700";
 body{
 	margin: 0;
 	padding: 0;
 }
 button{
-	border-radius: 10px;
+	font-family: 'Roboto Condensed', sans-serif;
 }
 .corpoCalculadora{
 	width: 100vw;
@@ -18,7 +15,6 @@ button{
 }
 .box {
 	border: solid black 2px;
-	border-radius: 5px;
     width: 300px;
     height: 550px;
 }
@@ -33,29 +29,27 @@ button{
 #clicar{
 	margin-top: 15px;
 	padding: 7px;
-	background-color: #66ccff;
+	background-color: lightgray;
 	border: none; 
-	color: white;
 	cursor: pointer;
-	font-family: fonte;
 }
 #botao{
 	padding: 10px;
 	width: 30%;
 	height: 50px;
 	margin: 3px;
-	background-color: #99ffcc;
+	background-color: lightslategray;
 	border: none;
 	cursor: pointer;
 }
 #botao:hover{
-	background-color: #ccffe6;
+	background-color: slategray;
 }
 .botoes{
 	margin: 20px;
 }
 #subtracao{
-	background-color: #00ff99;
+	background-color: lightgray;
 	border: none;
 	margin: 3px;
 	padding: 20px;
@@ -63,10 +57,10 @@ button{
 	height: 50px;
 }
 #subtracao:hover{
-	background-color: #4dffb8;
+	background-color: slategray;
 }
 #soma{
-	background-color: #00ff99;
+	background-color: lightgray;
 	border: none;
 	margin: 3px;
 	padding: 20px;
@@ -74,10 +68,10 @@ button{
 	height: 50px;
 }
 #soma:hover{
-	background-color: #4dffb8;
+	background-color: slategray;
 }
 #dividir{
-	background-color: #00ff99;
+	background-color: lightgray;
 	border: none;
 	margin: 3px;
 	padding: 20px;
@@ -85,10 +79,10 @@ button{
 	height: 50px;
 }
 #dividir:hover{
-	background-color: #4dffb8;
+	background-color: slategray;
 }
 #multiplicar{
-	background-color: #00ff99;
+	background-color: lightgray;
 	border: none;
 	margin: 3px;
 	padding: 20px;
@@ -96,10 +90,10 @@ button{
 	height: 50px;
 }
 #multiplicar:hover{
-	background-color: #4dffb8;
+	background-color: slategray;
 }
 #concatenar{
-	background-color: #00ff99;
+	background-color: lightgray;
 	border: none;
 	margin: 3px;
 	float: right;
@@ -108,19 +102,17 @@ button{
 	height: 50px;
 }
 #concatenar:hover{
-	background-color: #4dffb8;
+	background-color: slategray;
 }
 .final{
 	margin: 20px;
 }
 #apagar{
-	font-family: fonte;
 	width: 100%;
 	padding: 20px;
-	background-color: #00cc99;
+	background-color: lightgray;
 	border: none;
-	color: white;
 	cursor: pointer;
 	float: right;
-	box-shadow: 4px 4px #333;
+	box-shadow: 4px 4px slategray;
 }
